@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Question_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("행 개수 : ");
+        System.out.print("행 개수 : ");sssss
         int row = sc.nextInt();
 
         // use_loop(row); // 중첩 반복
