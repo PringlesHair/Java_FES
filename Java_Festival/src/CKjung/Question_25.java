@@ -33,7 +33,7 @@ public class Question_25 {
         if (idx == 1 || idx == 2) {
             return 1;
         } else {
-            return fibo(idx-1) + fibo(idx-2);
+            return fibo_recursive(idx-1) + fibo_recursive(idx-2);
         }
     }
 }
