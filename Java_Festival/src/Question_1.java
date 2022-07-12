@@ -6,8 +6,8 @@ public class Question_1 {
         System.out.print("정수 입력 : ");
         int num = sc.nextInt();
 
-        result(num);
-        // use_math(num);
+//        result(num);
+         use_math(num);
 
         sc.close();
     }
