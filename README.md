@@ -11,9 +11,11 @@
 > 5. clone 버튼 클릭
 > 6. eclipse 실행 -> file -> switch workspace -> 1번에서 생성했던 폴더로 들어가 Java_FES를 선택 후 실행
 > 7. 새롭게 떠진 워크스페이스에서 package exploerer의 import ~~ project 를 클릭
-> 8. Java_FES 밑의 Java_Festival 선택
-> 9. src 폴더 및에 파일 확인
+> 8. General -> existing projects into Workspace -> Browse -> java_festival 선택 -> finish
+> 9. Java_FES 밑의 Java_Festival 선택
+> 10. src 폴더 밑에 파일 확인
 
+이클립스에서 file -> switch workspace 를 통해 워크 스페이스 옮겨가면서 사용하실 수 있습니다!
 --------------
 
 ### 협업관련
