@@ -15,7 +15,7 @@
 > 9. Java_FES 밑의 Java_Festival 선택
 > 10. src 폴더 밑에 파일 확인
 
-이클립스에서 file -> switch workspace 를 통해 워크 스페이스 옮겨가면서 사용하실 수 있습니다!
+- 이클립스에서 file -> switch workspace 를 통해 워크 스페이스 옮겨가면서 사용하실 수 있습니다!
 --------------
 
 ### 협업관련
