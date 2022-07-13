@@ -1,8 +1,9 @@
+package CKjung;
 public class Question_12 {
     public static void main(String[] args) {
         // 단순 구현문제
         answer(100); // 출력형식을 맞춘 정답
-        test_tmp(100); // 조금 다른 방식으로 result만 얻는 방법
+//        test_tmp(100); // 조금 다른 방식으로 result만 얻는 방법
         
     }
     private static void answer(int n){
