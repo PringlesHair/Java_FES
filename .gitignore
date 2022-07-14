@@ -23,3 +23,23 @@
 hs_err_pid*
 replay_pid*
 /.metadata/
+
+# External tool builders
+.externalToolBuilders/
+
+# Loclly stored "Eclipse launch configuarations"
+*.launch
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.bak
+*.sqp
+*`.nib
+local.properties
+.settins/
+.loadpath
+.recommenders
