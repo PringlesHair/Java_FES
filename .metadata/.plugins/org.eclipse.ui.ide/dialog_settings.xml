@@ -15,7 +15,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< Updated upstream
 			<item value="C:\JavaFestival\Java_FES"/>
+=======
+			<item value="C:\Java_Festival\Java_FES"/>
+>>>>>>> Stashed changes
 			<item value="C:\Users\deuji\Desktop\java_fes\Java_FES"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
