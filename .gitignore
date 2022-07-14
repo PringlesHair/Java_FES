@@ -31,7 +31,7 @@ replay_pid*
 *.launch
 
 # Eclipse
-.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
