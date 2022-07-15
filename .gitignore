@@ -31,7 +31,7 @@ replay_pid*
 *.launch
 
 # Eclipse
-.metadata
+.metadata/
 bin/
 tmp/
 *.tmp
@@ -40,9 +40,12 @@ tmp/
 *.sqp
 *`.nib
 local.properties
-.settins/
-.loadpath
-.recommenders
-.classpath
-.settings/
-.project
+*.settins/
+*.loadpath
+*.recommenders
+*.classpath
+*.settings/
+*.project
+*.prefs
+*.xmi
+*.dat
