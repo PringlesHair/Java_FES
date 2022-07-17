@@ -11,7 +11,7 @@ public class Question_16 {
         System.out.print(startValue + "~" + endValue + "까지의 완전수 : ");
         for (int i = startValue; i <= endValue; i++) {
             int sum = 0;
-            for (int j = 1; j < Math.sqrt(i)+1; j++) {
+            for (int j = 1; j < (int)Math.sqrt(i)+1; j++) {
                 // 약수는 그 수의 제곱근까지만 검사하면 효율적으로 검사가능
                 if (i % j == 0) {
                     if (j != i/j) {
