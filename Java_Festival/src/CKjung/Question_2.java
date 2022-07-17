@@ -1,3 +1,5 @@
+package CKjung;
+
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 

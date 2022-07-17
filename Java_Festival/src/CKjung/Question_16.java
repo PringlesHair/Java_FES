@@ -1,3 +1,5 @@
+package CKjung;
+
 public class Question_16 {
     public static void main(String[] args) {
         // 단순 구현 문제
