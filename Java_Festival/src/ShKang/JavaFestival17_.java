@@ -2,7 +2,7 @@ package ShKang;
 
 import java.util.Scanner;
 
-public class JavaFestival15 {
+public class JavaFestival17_ {
 
 	public static void main(String[] args) {
 
@@ -15,12 +15,9 @@ public class JavaFestival15 {
 		System.out.print("사려는 상품개수를 입력하세요 >> ");
 
 		int num = sc.nextInt();
-
-		int price = 10000;
-
-		int price2 = 1;
-
-		price2 = price * num;
+        int price = 10000;
+        int price2 = 1;
+        price2 = price * num;
 
 		if (num >= 11) {
 

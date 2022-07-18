@@ -1,6 +1,6 @@
 package ShKang;
 
-public class JavaFestival17 {
+public class JavaFestival19_ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

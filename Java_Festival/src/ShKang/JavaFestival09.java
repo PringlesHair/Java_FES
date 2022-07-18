@@ -1,20 +1,21 @@
 package ShKang;
 
-import java.util.Scanner;
-
 public class JavaFestival09 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("숫자 입력 : ");
-		Scanner sc = new Scanner(System.in);
-		int input = sc.nextInt();
+		int num1 = 10;
+		int num2 = 2;
+		boolean result = isDivide(num1, num2);
+		System.out.println("결과 확인 : " + result);
+	}
 
-		System.out.print("반올림 수 : ");
-		if (input % 10 < 5) {
-			System.out.println(input / 10 * 10);
+	public static boolean isDivide(int num1, int num2) {
+		if (num1 % num2 == 0) {
+			return true;
 		} else {
-			System.out.println(input / 10 * 10 + 10);
+			return false;
 		}
 	}
+
 }

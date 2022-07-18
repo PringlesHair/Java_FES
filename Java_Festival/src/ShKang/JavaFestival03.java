@@ -38,7 +38,7 @@ public class JavaFestival03 {
 			if (min < arr[i])
 				min = arr[i];
 
-			System.out.print(arr[i] + "\t");
+			System.out.print(arr[i] + " ");
 
 		}
 

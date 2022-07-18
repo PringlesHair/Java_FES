@@ -1,11 +1,11 @@
-package HyKim;
+package ShKang;
 
 import java.util.Scanner;
 
-public class ex13 {
+public class JavaFestival13_ {
 
 	public static void main(String[] args) {
-
+		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.print("구하고 싶은 약수를 입력하시오 : ");
 		int n = sc.nextInt();
