@@ -7,29 +7,18 @@ public class fes_05 {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("최대 공약수 & 최소 공배수 구하기");
-		System.out.print("숫자1 입력 >> ");
-		int fr =sc.nextInt();
-		System.out.print("숫자2 입력 >> ");
-		int se =sc.nextInt();
-		
-		int max = 0;
-		
-		for(int y = 2; y<=se; y++) {
-			for(int x = 2; x<=fr; x++) {
-				if (fr%x==0 && se%y==0) {
-					if(x==y) {
-						if(max<x) {
-							max = x;
-						}
-					}
-				}
+		System.out.print("숫자 1입력 >> ");
+		int num1 = sc.nextInt();
+		System.out.print("숫자 2입력 >> ");
+		int num2 = sc.nextInt();
+		int ans1 = 0;
+		for(int i = 1; i <= num1; i++) {
+			if(num1%i == 0 && num2%i == 0) {
+				ans1 = i;
 			}
-		}System.out.print("최대공약수 : "+max+"\n");
-		
-		int num1 = fr/max;
-		int num2 = se/max;
-		System.out.print("최소공배수 : "+max*num1*num2);
-		
-		
+		}
+		int ans2 = num1*num2/ans1;
+		System.out.println("최대공약수 : " + ans1);
+		System.out.println("최소공배수 : " + ans2);
 	}
 }
