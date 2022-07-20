@@ -1,3 +1,5 @@
+package CKjung;
+
 import java.util.Scanner;
 
 public class Question_5 {
@@ -50,21 +52,13 @@ public class Question_5 {
 
     // 유클리드 호제법을 이용한 최대공약수 구하는 방법
     private static int get_gcd(int n, int m) {
-        int x = n;
-        int y = m;
-        // 항상 x가 더 작은 값, y가 더 큰값이 되도록 (사실 이부분은 없어도 됨)
-        if (x > y) {
-            int tmp = x;
-            x = y;
-            y = tmp;
-        }
         // 유클리드 호제법 (요게 핵심)
-        while (y > 0) {
-            int tmp = x;
-            x = y;
-            y = tmp % y;
+        while (m > 0) {
+            int tmp = n;
+            n = m;
+            m = tmp % m;
         }
-        return x; // 최대공약수 리턴
+        return n;// 최대공약수 리턴
     }
 
     // 재귀 함수와 유클리드 호제법을 이용한 방법

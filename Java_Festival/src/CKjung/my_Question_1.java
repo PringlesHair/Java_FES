@@ -16,8 +16,7 @@ public class my_Question_1 {
 		Map<String, Integer> counter = new HashMap<String, Integer>();
 		
 		for (String val : score_arr) {
-			Integer previousValue = counter.get(val);
-			counter.put(val, (previousValue == null)? 1 : previousValue + 1);
+			counter.put(val, (counter.get(val) == null)? 1 : counter.get(val) + 1);
 		}
 		
 		for (Map.Entry<String, Integer> entry : counter.entrySet()) {

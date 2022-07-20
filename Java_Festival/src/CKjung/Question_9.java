@@ -1,3 +1,5 @@
+package CKjung;
+
 public class Question_9 {
     public static void main(String[] args) {
         // 단순 메소드 구현 문제

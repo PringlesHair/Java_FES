@@ -1,4 +1,4 @@
-package javaFE;
+package EjKIM;
 
 import java.util.Scanner;
 

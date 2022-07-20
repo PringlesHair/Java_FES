@@ -1,3 +1,5 @@
+package CKjung;
+
 import java.util.Arrays;
 
 public class Question_8 {

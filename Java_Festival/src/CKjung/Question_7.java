@@ -1,3 +1,5 @@
+package CKjung;
+
 import java.util.Scanner;
 
 public class Question_7 {
@@ -12,8 +14,8 @@ public class Question_7 {
     }
 
     private static void use_loop(int row) {
-        for (int i = row; i >= 0; i--) {
-            for (int j = 0; j < i; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < row-i; j++) {
                 System.out.print("*");
             }
             System.out.println();

@@ -1,3 +1,5 @@
+package CKjung;
+
 public class Question_31 {
     public static void main(String[] args) {
         // 단순구현문제

@@ -1,3 +1,5 @@
+package CKjung;
+
 import java.util.Random;
 
 public class Question_28 {
